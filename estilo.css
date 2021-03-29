@@ -1,0 +1,148 @@
+.back{
+	color: red;
+	background-color: blue;
+}
+
+.fundo{
+    width: 50%;
+    height: 150vh;
+    background: url('imagens/back.png');
+}
+
+.imag{
+	display: unset;
+    width: 50%;
+    height: 100vh;
+    background-image: url(https://anhanguera.edu.br/wp-content/uploads/image-blackboard.jpg);
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.logo{
+	position: absolute;
+	top: 33%;
+	left: 888px;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+input:focus{
+	outline: 0;
+	background: transparent;
+	border-color: transparent transparent yellow transparent;
+	user-select: none;
+	width: 300px;
+	right: 190px;
+}
+
+.usuario{
+	font-weight: 700;
+	font-size: 12px;
+	font-family: "Verdana", sans-serif;
+	color: white;
+	position: absolute;
+	top: 68%;
+	right: 380px;
+}
+
+.login{
+	background: transparent;
+	border-color: transparent transparent white transparent;
+	font-family: "Verdana", sans-serif;
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	top: 72%;
+	right: 190px;
+	width: 300px;
+}
+
+.passw{
+	font-weight: 700;
+	font-size: 12px;
+	font-family: "Verdana", sans-serif;
+	color: white;
+	position: absolute;
+	top: 85%;
+	right: 455px;
+}
+
+.senha{
+	background: transparent;
+	border-color: transparent transparent white transparent;
+	font-family: "Verdana", sans-serif;
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	top: 88%;
+	right: 190px;
+	width: 300px;
+}
+
+.botao{
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	font-family: "Verdana", sans-serif;
+	font-size: 12px;
+	font-weight: 900;
+	color: white;
+	position: absolute;
+	top: 105%;
+	right: 190px;
+	width: 310px;
+	height: 50px;
+	cursor: pointer;
+}
+.esqueceusenha{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	top: 114%;
+	right: 190px;
+}
+
+.botao:hover{
+	background: white;
+	color: #1C1C1C;
+}
+
+.esqueceusenha:hover{
+	text-decoration: underline;
+}
+
+.site{
+	position: absolute;
+	right: 22%;
+	top: 132%;
+	color: white;
+}
+
+.rodape1{
+	color:white;
+	font-size: 14px;
+	position: absolute;
+	top: 138%;
+	right: 13%;
+}
+.rodape2{
+	color:white;
+	font-size: 14px;
+	position: absolute;
+	top: 133%;
+	right: 65%;
+}
+
+.rodape3{
+	color:white;
+	font-size: 14px;
+	position: absolute;
+	top: 133%;
+	right: 10%;
+}
